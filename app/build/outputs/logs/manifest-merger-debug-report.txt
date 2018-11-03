@@ -1,107 +1,117 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:2:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\b8f3d715052618f877b0de6763baca80\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f2e7e5b6b66dd85617f5137d9e564a3c\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0ac1e1d5b21c99396c390466bd888718\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\429f94afcf07063c9fc50f886b000f2f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\e275f13311163257306d4685b8567f59\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\10639d059308400796a79228b4e6d501\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8ca59f017f30e7ba45f32e1459a9e86b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\aa4678486a8c41747c0ce44628ff0ba8\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\23cd65ddc497686492447334c5c88870\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\a70973ef6532171bf8487b8ae5e1d7ac\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\11f547e20e16ba006dabe1a4ebca6a24\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d314197e5b11fc388ab9a39faa7b38e6\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suhaib/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a88e60adf9399d4df056e2668cb50dfc/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/36e5cb24e86cb9ba79afbe055aafb59f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/d64f724d64ddfb3c92614a77901f1a55/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/cd661b36bf64046c7bfcb099dea7e1ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/fffb1e262eae109149bdd3724e8b7733/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0ba433dbf880e951add2473a832044b2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f911c764b84fa419644f8081080d5aa5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/928138ab2094534087b6cab6a3c0f67c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3500270d9562bae3c2591919c7c67e64/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/suhaib/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/47b651d6b91eda5cbec8af3646ce41c7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/suhaib/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0bc4935be0fe9d4c98126c9d17aba44e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/suhaib/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6457349e293147c5b0e5d84defc9f591/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/suhaib/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b4a409e1610366438ea25c969b86b4a2/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:3:5-43
-		INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:2:1-22:12
-		INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml
+		INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:2:1-22:12
-		INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml
+		INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:4:5-66
+ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:6:5-20:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f2e7e5b6b66dd85617f5137d9e564a3c\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f2e7e5b6b66dd85617f5137d9e564a3c\AndroidManifest.xml:9:5-20
+ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:7:5-22:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suhaib/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a88e60adf9399d4df056e2668cb50dfc/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suhaib/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a88e60adf9399d4df056e2668cb50dfc/AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:12:9-40
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:13:9-40
 activity#com.example.suhaib.bakingapp.MainActivity
-ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:13:9-19:20
+ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:13:19-47
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:14:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.example.suhaib.bakingapp.DetailActivity
+ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:21:9-61
+	android:name
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml:21:19-49
 uses-sdk
-INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\b8f3d715052618f877b0de6763baca80\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\b8f3d715052618f877b0de6763baca80\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f2e7e5b6b66dd85617f5137d9e564a3c\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f2e7e5b6b66dd85617f5137d9e564a3c\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0ac1e1d5b21c99396c390466bd888718\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0ac1e1d5b21c99396c390466bd888718\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\429f94afcf07063c9fc50f886b000f2f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\429f94afcf07063c9fc50f886b000f2f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\e275f13311163257306d4685b8567f59\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\e275f13311163257306d4685b8567f59\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\10639d059308400796a79228b4e6d501\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\10639d059308400796a79228b4e6d501\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8ca59f017f30e7ba45f32e1459a9e86b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8ca59f017f30e7ba45f32e1459a9e86b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\aa4678486a8c41747c0ce44628ff0ba8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\aa4678486a8c41747c0ce44628ff0ba8\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\23cd65ddc497686492447334c5c88870\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\23cd65ddc497686492447334c5c88870\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\a70973ef6532171bf8487b8ae5e1d7ac\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\a70973ef6532171bf8487b8ae5e1d7ac\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\11f547e20e16ba006dabe1a4ebca6a24\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\11f547e20e16ba006dabe1a4ebca6a24\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d314197e5b11fc388ab9a39faa7b38e6\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\suhaib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d314197e5b11fc388ab9a39faa7b38e6\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml
+INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suhaib/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a88e60adf9399d4df056e2668cb50dfc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suhaib/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a88e60adf9399d4df056e2668cb50dfc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/36e5cb24e86cb9ba79afbe055aafb59f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/36e5cb24e86cb9ba79afbe055aafb59f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/d64f724d64ddfb3c92614a77901f1a55/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/d64f724d64ddfb3c92614a77901f1a55/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/cd661b36bf64046c7bfcb099dea7e1ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/cd661b36bf64046c7bfcb099dea7e1ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/fffb1e262eae109149bdd3724e8b7733/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/fffb1e262eae109149bdd3724e8b7733/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0ba433dbf880e951add2473a832044b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0ba433dbf880e951add2473a832044b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f911c764b84fa419644f8081080d5aa5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f911c764b84fa419644f8081080d5aa5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/928138ab2094534087b6cab6a3c0f67c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/928138ab2094534087b6cab6a3c0f67c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3500270d9562bae3c2591919c7c67e64/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3500270d9562bae3c2591919c7c67e64/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/suhaib/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/47b651d6b91eda5cbec8af3646ce41c7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/suhaib/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/47b651d6b91eda5cbec8af3646ce41c7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/suhaib/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0bc4935be0fe9d4c98126c9d17aba44e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/suhaib/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0bc4935be0fe9d4c98126c9d17aba44e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/suhaib/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6457349e293147c5b0e5d84defc9f591/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/suhaib/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6457349e293147c5b0e5d84defc9f591/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/suhaib/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b4a409e1610366438ea25c969b86b4a2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/suhaib/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b4a409e1610366438ea25c969b86b4a2/AndroidManifest.xml:20:5-44
+INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml
+		INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\suhaib\Desktop\Nano Degree\BakingApp\app\src\main\AndroidManifest.xml
+		INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/AndroidManifest.xml

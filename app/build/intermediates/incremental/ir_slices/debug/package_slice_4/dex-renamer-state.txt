@@ -1,4 +1,4 @@
-#Fri Nov 02 20:56:45 IST 2018
-base.0=C\:\\Users\\suhaib\\Desktop\\Nano Degree\\BakingApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
+#Sat Nov 03 12:28:32 IST 2018
+base.0=/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/transforms/dexMerger/debug/4
 path.0=classes.dex
 renamed.0=classes.dex
