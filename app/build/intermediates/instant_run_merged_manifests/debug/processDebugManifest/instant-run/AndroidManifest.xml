@@ -27,6 +27,32 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.suhaib.bakingapp.DetailActivity" />
+        <activity
+            android:name="com.example.suhaib.bakingapp.nn.ItemListActivity"
+            android:label="@string/title_item_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.suhaib.bakingapp.nn.ItemDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName="com.example.suhaib.bakingapp.nn.ItemListActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.suhaib.bakingapp.nn.ItemListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.suhaib.bakingapp.Details.BakinListActivity"
+            android:label="@string/title_bakin_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.suhaib.bakingapp.Details.BakinDetailActivity"
+            android:label="@string/title_bakin_detail"
+            android:parentActivityName="com.example.suhaib.bakingapp.Details.BakinListActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.suhaib.bakingapp.Details.BakinListActivity" />
+        </activity>
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

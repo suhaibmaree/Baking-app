@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.suhaib.bakingapp.JsonFiles.Baking;
@@ -27,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<Baking> bakingsList = new ArrayList<>();
     private RecyclerView recyclerView;
     int mNoOfColumns;
-    Adapter bakingAdapter;
 
 
     @Override
@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mNoOfColumns = Utility.calculateNoOfColumns(getApplicationContext());
-        recyclerView = findViewById(R.id.recycler_view);
         getBakingObj();
     }//end on create
 
@@ -46,10 +45,11 @@ public class MainActivity extends AppCompatActivity {
         service.method().enqueue(new Callback<ArrayList<Baking>>() {
             @Override
             public void onResponse(Call<ArrayList<Baking>> call, Response<ArrayList<Baking>> response) {
-               Toast.makeText(MainActivity.this,"Fetching Data success", Toast.LENGTH_LONG).show();
+               Toast.makeText(MainActivity.this,"Fetching Data success", Toast.LENGTH_SHORT).show();
                 bakingsList = response.body();
 
-                bakingAdapter = new Adapter(MainActivity.this,response.body());
+                recyclerView = findViewById(R.id.recycler_view);
+                Adapter bakingAdapter= new Adapter(MainActivity.this,bakingsList);
                 recyclerView.setAdapter(bakingAdapter);
                 recyclerView.setLayoutManager(new LinearLayoutManager(MainActivity.this));
             }
