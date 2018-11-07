@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs-rBA/values-bs-rBA.xml",
+            "map": [
+                {
+                    "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.2.0.aar/95b248d81830da407a508e5c0a58b35a/res/values-bs-rBA/values-bs-rBA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,129,205,275,348,429,500",
+                        "endColumns": "73,75,69,72,80,70,68",
+                        "endOffsets": "124,200,270,343,424,495,564"
+                    }
+                }
+            ]
+        }
+    ]
+}

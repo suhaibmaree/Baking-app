@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Tue Nov 06 14:34:19 IST 2018
+1.base=/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/transforms/dexMerger/androidTest/debug/1
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/transforms/dexMerger/androidTest/debug/0
+1.path=classes.dex

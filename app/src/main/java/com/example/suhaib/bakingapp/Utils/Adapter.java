@@ -14,7 +14,10 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.example.suhaib.bakingapp.Details.BakinListActivity;
 import com.example.suhaib.bakingapp.JsonFiles.Baking;
+import com.example.suhaib.bakingapp.JsonFiles.Step;
 import com.example.suhaib.bakingapp.R;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
@@ -71,10 +74,19 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
                     int pos = getAdapterPosition();
                     if(pos != RecyclerView.NO_POSITION){
                         Intent intent = new Intent(mContext, BakinListActivity.class);
+
+
+                        Log.d(".Adapter","Size List is "+bakingList.get(pos).getSteps().size());
                         intent.putExtra("baking", bakingList.get(pos));
+                        ArrayList<Step> steps;
+                        steps = bakingList.get(pos).getSteps();
+                        intent.putParcelableArrayListExtra("steps", steps);
+
+
                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                        Toast.makeText(view.getContext(),steps.size()+"k",Toast.LENGTH_SHORT).show();
                         mContext.startActivity(intent);
-                        Toast.makeText(view.getContext(),bakingList.get(pos).getName(),Toast.LENGTH_SHORT).show();
+
                     }
                 }
             });

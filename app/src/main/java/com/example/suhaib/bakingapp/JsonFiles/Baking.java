@@ -21,7 +21,7 @@ public class Baking implements Parcelable {
     private ArrayList<Ingredient> ingredients = null;
     @SerializedName("steps")
     @Expose
-    private ArrayList<Step> steps = null;
+    private ArrayList<Step> steps;
     @SerializedName("servings")
     @Expose
     private int servings;

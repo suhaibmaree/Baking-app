@@ -10,6 +10,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suhai
 MERGED from [com.android.support:support-v4:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/e79f5ed49a1de7074bce287bf8357785/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/36e5cb24e86cb9ba79afbe055aafb59f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/d64f724d64ddfb3c92614a77901f1a55/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer:r2.2.0] /home/suhaib/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.2.0.aar/95b248d81830da407a508e5c0a58b35a/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:support-fragment:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/cd661b36bf64046c7bfcb099dea7e1ef/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/fffb1e262eae109149bdd3724e8b7733/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0ba433dbf880e951add2473a832044b2/AndroidManifest.xml:17:1-22:12
@@ -135,6 +136,8 @@ MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/suhaib/.gradle/ca
 MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/36e5cb24e86cb9ba79afbe055aafb59f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/d64f724d64ddfb3c92614a77901f1a55/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/d64f724d64ddfb3c92614a77901f1a55/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer:r2.2.0] /home/suhaib/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.2.0.aar/95b248d81830da407a508e5c0a58b35a/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer:r2.2.0] /home/suhaib/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.2.0.aar/95b248d81830da407a508e5c0a58b35a/AndroidManifest.xml:21:5-23:41
 MERGED from [com.android.support:support-fragment:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/cd661b36bf64046c7bfcb099dea7e1ef/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/cd661b36bf64046c7bfcb099dea7e1ef/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/suhaib/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/fffb1e262eae109149bdd3724e8b7733/AndroidManifest.xml:20:5-44

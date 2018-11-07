@@ -3,7 +3,6 @@ package com.example.suhaib.bakingapp.Details;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -21,8 +20,7 @@ import com.example.suhaib.bakingapp.JsonFiles.Baking;
 import com.example.suhaib.bakingapp.JsonFiles.Step;
 import com.example.suhaib.bakingapp.R;
 
-import com.example.suhaib.bakingapp.Details.dummy.DummyContent;
-
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -41,6 +39,7 @@ public class BakinListActivity extends AppCompatActivity {
      */
     private boolean mTwoPane;
     Baking baking;
+    private ArrayList<Step>steps;
     RecyclerView recyclerView;
     SimpleItemRecyclerViewAdapter adapter;
 
@@ -54,10 +53,25 @@ public class BakinListActivity extends AppCompatActivity {
         TextView ingredient = findViewById(R.id.ingredient);
         String ingredientText="";
         Intent intent = getIntent();
+
         if(intent.hasExtra("baking")){
+
             baking = intent.getParcelableExtra("baking");
-            //Log.d("Steps size"+baking.getSteps().size(),"Check");
+            steps = intent.getParcelableArrayListExtra("steps");
+
+
+
+        if(steps == null){
+            Log.d(".BakingListActivity","Null NUll obj");
+            }else{
+            Log.d(".BakingListActivity","Check");
+
+        }
+            //Toast.makeText(this,baking.getSteps().size()+"k",Toast.LENGTH_SHORT).show();
             bakingName.setText(baking.getName());
+
+            Log.d(".BakingListActivity","Check "+baking.getIngredients().size());
+
             for (int i = 0; i<baking.getIngredients().size();i++){
                 ingredientText = ingredientText+baking.getIngredients().get(i).getIngredient()+"\n";
             }
@@ -88,7 +102,7 @@ public class BakinListActivity extends AppCompatActivity {
         }
 
         recyclerView = findViewById(R.id.bakin_list);
-        adapter = new SimpleItemRecyclerViewAdapter(this,baking.getSteps(),mTwoPane);
+        adapter = new SimpleItemRecyclerViewAdapter(this,steps,mTwoPane);
         recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
         recyclerView.setAdapter(adapter);
 
@@ -100,10 +114,10 @@ public class BakinListActivity extends AppCompatActivity {
 
         private final BakinListActivity mParentActivity;
         private final boolean mTwoPane;
-        private List<Step> mValues;
+        private ArrayList<Step> mValues;
 
 
-        SimpleItemRecyclerViewAdapter(BakinListActivity parent, List<Step> items, boolean twoPane) {
+        SimpleItemRecyclerViewAdapter(BakinListActivity parent, ArrayList<Step> items, boolean twoPane) {
             mValues = items;
             mParentActivity = parent;
             mTwoPane = twoPane;
@@ -139,6 +153,7 @@ public class BakinListActivity extends AppCompatActivity {
             ViewHolder(View view) {
                 super(view);
                 mStep = view.findViewById(R.id.Step);
+                itemView.setOnClickListener(this);
             }
 
             @Override
@@ -155,7 +170,8 @@ public class BakinListActivity extends AppCompatActivity {
                 } else {
                     Context context = v.getContext();
                     Intent intent = new Intent(context, BakinDetailActivity.class);
-                    intent.putExtra("step",mValues.get(index));
+                    intent.putParcelableArrayListExtra("step",mValues);
+                    intent.putExtra("id",index);
                     context.startActivity(intent);
                 }
             }

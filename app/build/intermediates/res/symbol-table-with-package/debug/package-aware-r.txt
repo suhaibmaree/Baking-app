@@ -139,6 +139,7 @@ attr contentPaddingRight
 attr contentPaddingTop
 attr contentScrim
 attr controlBackground
+attr controller_layout_id
 attr coordinatorLayoutStyle
 attr counterEnabled
 attr counterMaxLength
@@ -146,6 +147,7 @@ attr counterOverflowTextAppearance
 attr counterTextAppearance
 attr customNavigationLayout
 attr defaultQueryHint
+attr default_artwork
 attr dialogPreferredPadding
 attr dialogTheme
 attr displayOptions
@@ -180,6 +182,7 @@ attr fastScrollHorizontalThumbDrawable
 attr fastScrollHorizontalTrackDrawable
 attr fastScrollVerticalThumbDrawable
 attr fastScrollVerticalTrackDrawable
+attr fastforward_increment
 attr font
 attr fontFamily
 attr fontProviderAuthority
@@ -313,6 +316,7 @@ attr passwordToggleDrawable
 attr passwordToggleEnabled
 attr passwordToggleTint
 attr passwordToggleTintMode
+attr player_layout_id
 attr popupMenuStyle
 attr popupTheme
 attr popupWindowStyle
@@ -326,7 +330,9 @@ attr radioButtonStyle
 attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
+attr resize_mode
 attr reverseLayout
+attr rewind_increment
 attr rippleColor
 attr scrimAnimationDuration
 attr scrimVisibleHeightTrigger
@@ -340,6 +346,7 @@ attr showAsAction
 attr showDividers
 attr showText
 attr showTitle
+attr show_timeout
 attr singleChoiceItemLayout
 attr spanCount
 attr spinBars
@@ -360,6 +367,7 @@ attr subtitleTextAppearance
 attr subtitleTextColor
 attr subtitleTextStyle
 attr suggestionRowLayout
+attr surface_type
 attr switchMinWidth
 attr switchPadding
 attr switchStyle
@@ -423,6 +431,8 @@ attr track
 attr trackTint
 attr trackTintMode
 attr useCompatPadding
+attr use_artwork
+attr use_controller
 attr viewInflaterClass
 attr voiceIcon
 attr windowActionBar
@@ -805,6 +815,8 @@ dimen design_tab_text_size
 dimen design_tab_text_size_2line
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen exo_media_button_height
+dimen exo_media_button_width
 dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
@@ -935,6 +947,12 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable exo_controls_fastforward
+drawable exo_controls_next
+drawable exo_controls_pause
+drawable exo_controls_play
+drawable exo_controls_previous
+drawable exo_controls_rewind
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable load
@@ -1022,7 +1040,6 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
-id detail_toolbar
 id dimensions
 id direct
 id disableHome
@@ -1032,13 +1049,31 @@ id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
+id exo_artwork
+id exo_content_frame
+id exo_controller_placeholder
+id exo_duration
+id exo_ffwd
+id exo_next
+id exo_overlay
+id exo_pause
+id exo_play
+id exo_position
+id exo_prev
+id exo_progress
+id exo_rew
+id exo_shutter
+id exo_subtitles
 id expand_activities_button
 id expanded_menu
 id fab
 id fill
 id fill_horizontal
 id fill_vertical
+id fit
 id fixed
+id fixed_height
+id fixed_width
 id forever
 id frameLayout
 id ghost_view
@@ -1050,7 +1085,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageView
 id info
 id ingredient
 id invisible
@@ -1082,6 +1116,7 @@ id parentPanel
 id parent_matrix
 id percent
 id pin
+id playerView
 id progress_circular
 id progress_horizontal
 id radio
@@ -1130,6 +1165,7 @@ id start
 id status_bar_latest_event_content
 id submenuarrow
 id submit_area
+id surface_view
 id tabMode
 id tag_transition_group
 id text
@@ -1139,12 +1175,12 @@ id textSpacerNoTitle
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
+id texture_view
 id time
 id title
 id titleDividerNoCustom
 id title_template
 id toolbar
-id toolbar_layout
 id top
 id topPanel
 id touch_outside
@@ -1219,6 +1255,8 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout exo_playback_control_view
+layout exo_simple_player_view
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -1273,6 +1311,13 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_pattern
+string exo_controls_fastforward_description
+string exo_controls_next_description
+string exo_controls_pause_description
+string exo_controls_play_description
+string exo_controls_previous_description
+string exo_controls_rewind_description
+string exo_controls_stop_description
 string ingredient
 string password_toggle_content_description
 string path_password_eye
@@ -1457,6 +1502,13 @@ style Base_Widget_Design_TabLayout
 style CardView
 style CardView_Dark
 style CardView_Light
+style ExoMediaButton
+style ExoMediaButton_FastForward
+style ExoMediaButton_Next
+style ExoMediaButton_Pause
+style ExoMediaButton_Play
+style ExoMediaButton_Previous
+style ExoMediaButton_Rewind
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_ThemeOverlay_AppCompat
@@ -1684,6 +1736,7 @@ styleable AppCompatSeekBar android_thumb tickMark tickMarkTint tickMarkTintMode
 styleable AppCompatTextHelper android_textAppearance android_drawableTop android_drawableBottom android_drawableLeft android_drawableRight android_drawableStart android_drawableEnd
 styleable AppCompatTextView android_textAppearance autoSizeMaxTextSize autoSizeMinTextSize autoSizePresetSizes autoSizeStepGranularity autoSizeTextType fontFamily textAllCaps
 styleable AppCompatTheme android_windowIsFloating android_windowAnimationStyle actionBarDivider actionBarItemBackground actionBarPopupTheme actionBarSize actionBarSplitStyle actionBarStyle actionBarTabBarStyle actionBarTabStyle actionBarTabTextStyle actionBarTheme actionBarWidgetTheme actionButtonStyle actionDropDownStyle actionMenuTextAppearance actionMenuTextColor actionModeBackground actionModeCloseButtonStyle actionModeCloseDrawable actionModeCopyDrawable actionModeCutDrawable actionModeFindDrawable actionModePasteDrawable actionModePopupWindowStyle actionModeSelectAllDrawable actionModeShareDrawable actionModeSplitBackground actionModeStyle actionModeWebSearchDrawable actionOverflowButtonStyle actionOverflowMenuStyle activityChooserViewStyle alertDialogButtonGroupStyle alertDialogCenterButtons alertDialogStyle alertDialogTheme autoCompleteTextViewStyle borderlessButtonStyle buttonBarButtonStyle buttonBarNegativeButtonStyle buttonBarNeutralButtonStyle buttonBarPositiveButtonStyle buttonBarStyle buttonStyle buttonStyleSmall checkboxStyle checkedTextViewStyle colorAccent colorBackgroundFloating colorButtonNormal colorControlActivated colorControlHighlight colorControlNormal colorError colorPrimary colorPrimaryDark colorSwitchThumbNormal controlBackground dialogPreferredPadding dialogTheme dividerHorizontal dividerVertical dropDownListViewStyle dropdownListPreferredItemHeight editTextBackground editTextColor editTextStyle homeAsUpIndicator imageButtonStyle listChoiceBackgroundIndicator listDividerAlertDialog listMenuViewStyle listPopupWindowStyle listPreferredItemHeight listPreferredItemHeightLarge listPreferredItemHeightSmall listPreferredItemPaddingLeft listPreferredItemPaddingRight panelBackground panelMenuListTheme panelMenuListWidth popupMenuStyle popupWindowStyle radioButtonStyle ratingBarStyle ratingBarStyleIndicator ratingBarStyleSmall searchViewStyle seekBarStyle selectableItemBackground selectableItemBackgroundBorderless spinnerDropDownItemStyle spinnerStyle switchStyle textAppearanceLargePopupMenu textAppearanceListItem textAppearanceListItemSecondary textAppearanceListItemSmall textAppearancePopupMenuHeader textAppearanceSearchResultSubtitle textAppearanceSearchResultTitle textAppearanceSmallPopupMenu textColorAlertDialogListItem textColorSearchUrl toolbarNavigationButtonStyle toolbarStyle tooltipForegroundColor tooltipFrameBackground viewInflaterClass windowActionBar windowActionBarOverlay windowActionModeOverlay windowFixedHeightMajor windowFixedHeightMinor windowFixedWidthMajor windowFixedWidthMinor windowMinWidthMajor windowMinWidthMinor windowNoTitle
+styleable AspectRatioFrameLayout resize_mode
 styleable BottomNavigationView elevation itemBackground itemIconTint itemTextColor menu
 styleable BottomSheetBehavior_Layout behavior_hideable behavior_peekHeight behavior_skipCollapsed
 styleable ButtonBarLayout allowStacking
@@ -1712,6 +1765,7 @@ styleable MenuGroup android_enabled android_id android_visible android_menuCateg
 styleable MenuItem android_icon android_enabled android_id android_checked android_visible android_menuCategory android_orderInCategory android_title android_titleCondensed android_alphabeticShortcut android_numericShortcut android_checkable android_onClick actionLayout actionProviderClass actionViewClass alphabeticModifiers contentDescription iconTint iconTintMode numericModifiers showAsAction tooltipText
 styleable MenuView android_windowAnimationStyle android_itemTextAppearance android_horizontalDivider android_verticalDivider android_headerBackground android_itemBackground android_itemIconDisabledAlpha preserveIconSpacing subMenuArrow
 styleable NavigationView android_background android_fitsSystemWindows android_maxWidth elevation headerLayout itemBackground itemIconTint itemTextAppearance itemTextColor menu
+styleable PlaybackControlView controller_layout_id fastforward_increment rewind_increment show_timeout
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
@@ -1719,6 +1773,7 @@ styleable RecyclerView android_orientation android_descendantFocusability fastSc
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
+styleable SimpleExoPlayerView controller_layout_id default_artwork fastforward_increment player_layout_id resize_mode rewind_increment show_timeout surface_type use_artwork use_controller
 styleable SnackbarLayout android_maxWidth elevation maxActionInlineWidth
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode

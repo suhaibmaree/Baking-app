@@ -4,7 +4,8 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:adjustViewBounds="true"
-    android:background="@color/LightYellow">
+    android:background="@color/LightYellow"
+    app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
     <android.support.v7.widget.CardView
         android:id="@+id/card_view1"
@@ -27,8 +28,7 @@
                 android:paddingTop="5dp"
                 android:textSize="20sp"
                 android:layout_centerVertical="true"
-                android:layout_toRightOf="@id/imageView"
-                android:layout_toEndOf="@+id/imageView"/>
+                />
         </RelativeLayout>
 
     </android.support.v7.widget.CardView>

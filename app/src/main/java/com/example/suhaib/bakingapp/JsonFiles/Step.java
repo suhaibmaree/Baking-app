@@ -24,26 +24,6 @@ public class Step implements Parcelable {
     @Expose
     private String thumbnailURL;
 
-    protected Step(Parcel in) {
-        id = in.readInt();
-        shortDescription = in.readString();
-        description = in.readString();
-        videoURL = in.readString();
-        thumbnailURL = in.readString();
-    }
-
-    public static final Creator<Step> CREATOR = new Creator<Step>() {
-        @Override
-        public Step createFromParcel(Parcel in) {
-            return new Step(in);
-        }
-
-        @Override
-        public Step[] newArray(int size) {
-            return new Step[size];
-        }
-    };
-
     public int getId() {
         return id;
     }
@@ -58,6 +38,13 @@ public class Step implements Parcelable {
 
     public void setShortDescription(String shortDescription) {
         this.shortDescription = shortDescription;
+    }
+    public Step(Parcel in){
+        setId(in.readInt());
+        setShortDescription(in.readString());
+        setDescription(in.readString());
+        setVideoURL(in.readString());
+        setThumbnailURL(in.readString());
     }
 
     public String getDescription() {
@@ -91,13 +78,22 @@ public class Step implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-        dest.writeInt(id);
-        dest.writeString(shortDescription);
-        dest.writeString(description);
-        dest.writeString(videoURL);
-        dest.writeString(thumbnailURL);
+        dest.writeInt(getId());
+        dest.writeString(getShortDescription());
+        dest.writeString(getDescription());
+        dest.writeString(getVideoURL());
+        dest.writeString(getThumbnailURL());
+
     }
 
 
-}
+    public static final Parcelable.Creator CREATOR = new Parcelable.Creator() {
+        public Step createFromParcel(Parcel in) {
+            return new Step(in);
+        }
 
+        public Step[] newArray(int size) {
+            return new Step[size];
+        }
+    };
+}
