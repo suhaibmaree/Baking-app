@@ -39,6 +39,7 @@ public class BakinDetailFragment extends Fragment {
     private int index;
     private SimpleExoPlayer mExoPlayer;
     private SimpleExoPlayerView mPlayerView;
+    private TextView stepDes;
     Context context;
 
 
@@ -57,19 +58,22 @@ public class BakinDetailFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.bakin_detail, container, false);
-        mPlayerView = (SimpleExoPlayerView)rootView.findViewById(R.id.playerView);
-        //mPlayerView.setDefaultArtwork(BitmapFactory.decodeResource(getResources(),R.drawable.load));
+        mPlayerView = rootView.findViewById(R.id.playerView);
+        stepDes = rootView.findViewById(R.id.step_description);
         context = container.getContext();
 
         if (getArguments().containsKey(ARG_ITEM_ID)) {
+
             steps = getArguments().getParcelableArrayList("step");
             index = getArguments().getInt("id");
             Log.d(steps.size()+"","Check step");
             Log.d(index+"","Check step");
             Uri uri = Uri.parse(steps.get(index).getVideoURL());
             Log.d(uri+"","Check step");
+
             initializePlayer(uri , context);
-        }
+            stepDes.setText(steps.get(index).getDescription());
+        }//end if
 
 
         return rootView;
@@ -86,7 +90,6 @@ public class BakinDetailFragment extends Fragment {
                     new DefaultExtractorsFactory(),null,null);
             mExoPlayer.prepare(mediaSource);
             mExoPlayer.setPlayWhenReady(true);
-
         } // end if
     }//end initializer
 

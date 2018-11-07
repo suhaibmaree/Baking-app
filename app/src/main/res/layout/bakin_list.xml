@@ -23,13 +23,15 @@
             android:text="@string/ingredient"
             android:textSize="25sp"
             android:textColor="@color/cardview_dark_background"
-            android:paddingLeft="12dp"/>
+            android:paddingLeft="12dp"
+            android:background="@color/LightYellow"/>
         <TextView
             android:id="@+id/ingredient"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
             android:textSize="20sp"
+            android:background="@color/LightYellow"
             android:textColor="@color/cardview_dark_background"/>
 
         <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -42,6 +44,7 @@
             android:nestedScrollingEnabled="false"
             android:layout_marginRight="16dp"
             tools:context=".Details.BakinListActivity"
-            tools:listitem="@layout/bakin_list_content" />
+            tools:listitem="@layout/bakin_list_content"
+            android:paddingTop="16dp"/>
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

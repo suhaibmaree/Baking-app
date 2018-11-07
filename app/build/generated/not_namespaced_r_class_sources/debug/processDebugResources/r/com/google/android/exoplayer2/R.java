@@ -42,28 +42,28 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int exo_artwork = 0x7f08004d;
-        public static final int exo_content_frame = 0x7f08004e;
-        public static final int exo_controller_placeholder = 0x7f08004f;
-        public static final int exo_duration = 0x7f080050;
-        public static final int exo_ffwd = 0x7f080051;
-        public static final int exo_next = 0x7f080052;
-        public static final int exo_overlay = 0x7f080053;
-        public static final int exo_pause = 0x7f080054;
-        public static final int exo_play = 0x7f080055;
-        public static final int exo_position = 0x7f080056;
-        public static final int exo_prev = 0x7f080057;
-        public static final int exo_progress = 0x7f080058;
-        public static final int exo_rew = 0x7f080059;
-        public static final int exo_shutter = 0x7f08005a;
-        public static final int exo_subtitles = 0x7f08005b;
-        public static final int fill = 0x7f08005f;
-        public static final int fit = 0x7f080062;
-        public static final int fixed_height = 0x7f080064;
-        public static final int fixed_width = 0x7f080065;
-        public static final int none = 0x7f080084;
-        public static final int surface_view = 0x7f0800c1;
-        public static final int texture_view = 0x7f0800cb;
+        public static final int exo_artwork = 0x7f08004c;
+        public static final int exo_content_frame = 0x7f08004d;
+        public static final int exo_controller_placeholder = 0x7f08004e;
+        public static final int exo_duration = 0x7f08004f;
+        public static final int exo_ffwd = 0x7f080050;
+        public static final int exo_next = 0x7f080051;
+        public static final int exo_overlay = 0x7f080052;
+        public static final int exo_pause = 0x7f080053;
+        public static final int exo_play = 0x7f080054;
+        public static final int exo_position = 0x7f080055;
+        public static final int exo_prev = 0x7f080056;
+        public static final int exo_progress = 0x7f080057;
+        public static final int exo_rew = 0x7f080058;
+        public static final int exo_shutter = 0x7f080059;
+        public static final int exo_subtitles = 0x7f08005a;
+        public static final int fill = 0x7f08005d;
+        public static final int fit = 0x7f080060;
+        public static final int fixed_height = 0x7f080062;
+        public static final int fixed_width = 0x7f080063;
+        public static final int none = 0x7f080082;
+        public static final int surface_view = 0x7f0800c0;
+        public static final int texture_view = 0x7f0800ca;
     }
     public static final class layout {
         private layout() {}

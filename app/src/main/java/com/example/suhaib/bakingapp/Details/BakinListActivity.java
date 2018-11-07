@@ -73,7 +73,7 @@ public class BakinListActivity extends AppCompatActivity {
             Log.d(".BakingListActivity","Check "+baking.getIngredients().size());
 
             for (int i = 0; i<baking.getIngredients().size();i++){
-                ingredientText = ingredientText+baking.getIngredients().get(i).getIngredient()+"\n";
+                ingredientText = ingredientText+(i+1)+": "+baking.getIngredients().get(i).getIngredient()+"\n";
             }
             ingredient.setText(ingredientText);
 
@@ -83,15 +83,6 @@ public class BakinListActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setTitle(getTitle());
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         if (findViewById(R.id.bakin_detail_container) != null) {
             // The detail container view will be present only in the

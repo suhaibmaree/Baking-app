@@ -84,7 +84,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
 
 
                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                        Toast.makeText(view.getContext(),steps.size()+"k",Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(view.getContext(),steps.size()+"k",Toast.LENGTH_SHORT).show();
                         mContext.startActivity(intent);
 
                     }

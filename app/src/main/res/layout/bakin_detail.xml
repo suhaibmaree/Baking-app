@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/bakin_detail"
-    style="?android:attr/textAppearanceLarge"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:text="@string/app_name"
-    android:padding="16dp"
-    android:textIsSelectable="true"
-    tools:context=".Details.BakinDetailFragment" />
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+        <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:id="@+id/playerView"
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+
+        </com.google.android.exoplayer2.ui.SimpleExoPlayerView>
+
+        <TextView
+            android:id="@+id/step_description"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

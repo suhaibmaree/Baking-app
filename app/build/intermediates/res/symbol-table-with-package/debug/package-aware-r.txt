@@ -1006,7 +1006,6 @@ id always
 id app_bar
 id async
 id auto
-id bakin_detail
 id bakin_detail_container
 id bakin_list
 id baking_name
@@ -1066,7 +1065,6 @@ id exo_shutter
 id exo_subtitles
 id expand_activities_button
 id expanded_menu
-id fab
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1163,6 +1161,7 @@ id src_over
 id standard
 id start
 id status_bar_latest_event_content
+id step_description
 id submenuarrow
 id submit_area
 id surface_view
