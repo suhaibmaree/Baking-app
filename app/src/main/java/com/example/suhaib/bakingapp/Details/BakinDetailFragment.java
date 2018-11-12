@@ -71,6 +71,7 @@ public class BakinDetailFragment extends Fragment {
             Uri uri = Uri.parse(steps.get(index).getVideoURL());
             Log.d(uri+"","Check step");
 
+            mPlayerView.setDefaultArtwork(BitmapFactory.decodeResource(getResources(),R.drawable.load1));
             initializePlayer(uri , context);
             stepDes.setText(steps.get(index).getDescription());
         }//end if

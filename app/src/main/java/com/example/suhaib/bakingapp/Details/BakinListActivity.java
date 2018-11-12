@@ -152,7 +152,8 @@ public class BakinListActivity extends AppCompatActivity {
                 int index = getAdapterPosition();
                 if (mTwoPane) {
                     Bundle arguments = new Bundle();
-                    arguments.putParcelable("step",mValues.get(index));
+                    arguments.putParcelableArrayList("step",mValues);
+                    arguments.putInt("index",index);
                     BakinDetailFragment fragment = new BakinDetailFragment();
                     fragment.setArguments(arguments);
                     mParentActivity.getSupportFragmentManager().beginTransaction()

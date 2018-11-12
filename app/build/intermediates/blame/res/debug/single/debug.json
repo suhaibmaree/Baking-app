@@ -20,12 +20,12 @@
         "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/33bc2671a95c379fecac3690c99b94f8/res/color/design_error.xml"
     },
     {
-        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_dark.xml.flat",
-        "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/color/abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_dark.xml.flat",
+        "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/color/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -152,12 +152,12 @@
         "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.2.0.aar/95b248d81830da407a508e5c0a58b35a/res/drawable-mdpi-v4/exo_controls_previous.png"
     },
     {
-        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/anim_abc_grow_fade_in_from_bottom.xml.flat",
         "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_exo_controls_rewind.png.flat",
@@ -176,24 +176,24 @@
         "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat",
-        "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable_abc_ic_go_search_api_material.xml.flat",
         "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat",
+        "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/color-v23_abc_tint_btn_checkable.xml.flat",
-        "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/color-v23/abc_tint_btn_checkable.xml"
-    },
-    {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/color-v23_abc_tint_btn_checkable.xml.flat",
+        "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/layout_design_navigation_item.xml.flat",
@@ -246,6 +246,10 @@
     {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/layout_baking_widget.xml.flat",
+        "source": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/res/layout/baking_widget.xml"
     },
     {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
@@ -308,12 +312,12 @@
         "source": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/res/layout/bakin_detail.xml"
     },
     {
-        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/color_switch_thumb_material_dark.xml.flat",
-        "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/color/switch_thumb_material_dark.xml"
-    },
-    {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/layout_design_bottom_sheet_dialog.xml.flat",
         "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/33bc2671a95c379fecac3690c99b94f8/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/color_switch_thumb_material_dark.xml.flat",
+        "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/color/switch_thumb_material_dark.xml"
     },
     {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/layout_design_text_input_password_icon.xml.flat",
@@ -360,20 +364,20 @@
         "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
     },
     {
-        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
-        "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/layout/abc_action_mode_bar.xml"
-    },
-    {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_tick_mark_material.xml.flat",
-        "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/drawable/abc_seekbar_tick_mark_material.xml"
+        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
+        "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
         "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3500270d9562bae3c2591919c7c67e64/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_tick_mark_material.xml.flat",
+        "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -384,12 +388,12 @@
         "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/layout_activity_bakin_list.xml.flat",
-        "source": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/res/layout/activity_bakin_list.xml"
-    },
-    {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/layout_activity_bakin_list.xml.flat",
+        "source": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/res/layout/activity_bakin_list.xml"
     },
     {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -826,6 +830,10 @@
     {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_light.xml.flat",
         "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable-nodpi_example_appwidget_preview.png.flat",
+        "source": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/res/drawable-nodpi/example_appwidget_preview.png"
     },
     {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable_abc_dialog_material_background.xml.flat",
@@ -1654,6 +1662,10 @@
     {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "/home/suhaib/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d459bac27776ea6f4aff6bc34d0f7f7/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/xml_baking_widget_info.xml.flat",
+        "source": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/src/main/res/xml/baking_widget_info.xml"
     },
     {
         "merged": "/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",

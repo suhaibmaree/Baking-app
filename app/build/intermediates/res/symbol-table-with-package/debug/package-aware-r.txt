@@ -856,6 +856,7 @@ dimen tooltip_precise_anchor_threshold
 dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
+dimen widget_margin
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -947,6 +948,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable example_appwidget_preview
 drawable exo_controls_fastforward
 drawable exo_controls_next
 drawable exo_controls_pause
@@ -1004,6 +1006,7 @@ id alertTitle
 id all
 id always
 id app_bar
+id appwidget_text
 id async
 id auto
 id bakin_detail_container
@@ -1240,6 +1243,7 @@ layout bakin_detail
 layout bakin_list
 layout bakin_list_content
 layout baking_card
+layout baking_widget
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1306,8 +1310,10 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string add_widget
 string app_name
 string appbar_scrolling_view_behavior
+string appwidget_text
 string bottom_sheet_behavior
 string character_counter_pattern
 string exo_controls_fastforward_description
@@ -1784,3 +1790,4 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml baking_widget_info

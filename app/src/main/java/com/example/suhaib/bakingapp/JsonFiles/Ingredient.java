@@ -70,8 +70,9 @@ public class Ingredient implements Parcelable {
         }
     };
 
-
-
-
+    @Override
+    public String toString() {
+        return getIngredient();
+    }
 }
 

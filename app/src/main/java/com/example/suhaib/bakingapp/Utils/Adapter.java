@@ -2,8 +2,10 @@ package com.example.suhaib.bakingapp.Utils;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,6 +18,7 @@ import com.example.suhaib.bakingapp.Details.BakinListActivity;
 import com.example.suhaib.bakingapp.JsonFiles.Baking;
 import com.example.suhaib.bakingapp.JsonFiles.Step;
 import com.example.suhaib.bakingapp.R;
+import com.example.suhaib.bakingapp.WidgetService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -84,7 +87,13 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
 
 
                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                        //Toast.makeText(view.getContext(),steps.size()+"k",Toast.LENGTH_SHORT).show();
+                        Intent widgetService = new Intent(mContext,WidgetService.class);
+                        widgetService.setData(Uri.parse( TextUtils.join("\n",bakingList.get(pos).getIngredients())));
+
+                        //Log
+                        Log.d(Uri.parse( TextUtils.join("\n",bakingList.get(pos).getIngredients()))+""," Check integ");
+
+                        mContext.startService(widgetService);
                         mContext.startActivity(intent);
 
                     }

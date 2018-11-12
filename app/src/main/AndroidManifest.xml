@@ -35,7 +35,7 @@
         <activity
             android:name=".Details.BakinListActivity"
             android:label="@string/title_bakin_list"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Details.BakinDetailActivity"
             android:label="@string/title_bakin_detail"
@@ -45,6 +45,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.suhaib.bakingapp.Details.BakinListActivity" />
         </activity>
+
+        <receiver android:name=".BakingWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/baking_widget_info" />
+        </receiver>
     </application>
 
 </manifest>

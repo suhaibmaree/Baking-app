@@ -54,6 +54,16 @@
                 android:value="com.example.suhaib.bakingapp.Details.BakinListActivity" />
         </activity>
 
+        <receiver android:name="com.example.suhaib.bakingapp.BakingWidget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/baking_widget_info" />
+        </receiver>
+
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="com.example.suhaib.bakingapp.com.android.tools.ir.server.InstantRunContentProvider"

@@ -5,4 +5,6 @@
     <string name="title_bakin_list">Items</string>
     <string name="title_bakin_detail">Bakin Detail</string>
     <string name="ingredient">Ingredient list:</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
 </resources>
