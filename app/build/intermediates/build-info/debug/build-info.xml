@@ -5,41 +5,73 @@
     build-mode="COLD"
     density="560dpi"
     format="10"
-    ir-eligibility="STATIC_INITIALIZER_CHANGE"
     plugin-version="3.2.0"
-    timestamp="1542049140909"
+    timestamp="1542050643874"
     token="5002518783975687983"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="107" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="6" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
+    <artifact
+        location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
     <artifact
         location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
+    <artifact
+        location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1542049101896"
+        timestamp="1542050573251"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
         <artifact
             location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -74,12 +106,44 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="STATIC_INITIALIZER_CHANGE"
-        timestamp="1542049140909"
+        timestamp="1542050643874"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
         <artifact
             location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

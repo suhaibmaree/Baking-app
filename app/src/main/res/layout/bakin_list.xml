@@ -29,7 +29,6 @@
             android:id="@+id/ingredient"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="16dp"
             android:textSize="20sp"
             android:background="@color/LightYellow"
             android:textColor="@color/cardview_dark_background"/>
@@ -40,9 +39,7 @@
             android:name="com.example.suhaib.bakingapp.Details.BakinListFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="16dp"
             android:nestedScrollingEnabled="false"
-            android:layout_marginRight="16dp"
             tools:context=".Details.BakinListActivity"
             tools:listitem="@layout/bakin_list_content"
             android:paddingTop="16dp"/>

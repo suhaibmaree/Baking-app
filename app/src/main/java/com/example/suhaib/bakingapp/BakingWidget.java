@@ -11,7 +11,7 @@ import android.widget.RemoteViews;
  * Implementation of App Widget functionality.
  */
 public class BakingWidget extends AppWidgetProvider {
-    public static String ingredian = "ingredians";
+    public static String ingredian = "Baking ingredians";
 
     static void updateAppWidget(Context context, AppWidgetManager appWidgetManager,
                                 int appWidgetId, String ingredians) {
