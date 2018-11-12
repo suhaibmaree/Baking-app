@@ -40,7 +40,7 @@ public class BakinDetailActivity extends AppCompatActivity {
             Bundle arguments = new Bundle();
             arguments.putParcelableArrayList("step",
                     getIntent().getParcelableArrayListExtra("step"));
-            arguments.putInt("index",getIntent().getIntExtra("id",0));
+            arguments.putInt("index",getIntent().getIntExtra("index",0));
             BakinDetailFragment fragment = new BakinDetailFragment();
             fragment.setArguments(arguments);
             getSupportFragmentManager().beginTransaction()

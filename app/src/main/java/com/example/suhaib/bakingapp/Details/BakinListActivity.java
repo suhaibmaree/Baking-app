@@ -163,7 +163,7 @@ public class BakinListActivity extends AppCompatActivity {
                     Context context = v.getContext();
                     Intent intent = new Intent(context, BakinDetailActivity.class);
                     intent.putParcelableArrayListExtra("step",mValues);
-                    intent.putExtra("id",index);
+                    intent.putExtra("index",index);
                     context.startActivity(intent);
                 }
             }

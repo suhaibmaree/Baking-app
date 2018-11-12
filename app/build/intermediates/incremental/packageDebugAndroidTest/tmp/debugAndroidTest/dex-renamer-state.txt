@@ -1,7 +1,0 @@
-#Tue Nov 06 14:34:19 IST 2018
-base.0=/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/transforms/dexMerger/androidTest/debug/1
-path.1=classes.dex
-renamed.1=classes2.dex
-path.0=classes.dex
-renamed.0=classes.dex
-base.1=/home/suhaib/Desktop/Nano degree/BakingApp-20181102T200754Z-001/BakingApp/app/build/intermediates/transforms/dexMerger/androidTest/debug/0

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.support.annotation.NonNull;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -61,18 +62,26 @@ public class BakinDetailFragment extends Fragment {
         mPlayerView = rootView.findViewById(R.id.playerView);
         stepDes = rootView.findViewById(R.id.step_description);
         context = container.getContext();
+        long position=0;
+        boolean state = true;
 
         if (getArguments().containsKey(ARG_ITEM_ID)) {
 
             steps = getArguments().getParcelableArrayList("step");
-            index = getArguments().getInt("id");
+            index = getArguments().getInt("index");
             Log.d(steps.size()+"","Check step");
             Log.d(index+"","Check step");
             Uri uri = Uri.parse(steps.get(index).getVideoURL());
             Log.d(uri+"","Check step");
 
             mPlayerView.setDefaultArtwork(BitmapFactory.decodeResource(getResources(),R.drawable.load1));
-            initializePlayer(uri , context);
+
+            if (savedInstanceState !=null){
+                position=savedInstanceState.getLong("videoPosishin");
+                state = savedInstanceState.getBoolean("state");
+            }
+
+            initializePlayer(uri , context,position,state);
             stepDes.setText(steps.get(index).getDescription());
         }//end if
 
@@ -80,7 +89,7 @@ public class BakinDetailFragment extends Fragment {
         return rootView;
     }//end creatView
 
-    public void initializePlayer(Uri mediaUri,Context context){
+    public void initializePlayer(Uri mediaUri,Context context,long position,boolean state){
         if(mExoPlayer==null){
             TrackSelector trackSelector = new DefaultTrackSelector();
             LoadControl loadControl = new DefaultLoadControl();
@@ -90,7 +99,8 @@ public class BakinDetailFragment extends Fragment {
             MediaSource mediaSource = new ExtractorMediaSource(mediaUri,new DefaultDataSourceFactory(context,userAgent),
                     new DefaultExtractorsFactory(),null,null);
             mExoPlayer.prepare(mediaSource);
-            mExoPlayer.setPlayWhenReady(true);
+            mExoPlayer.seekTo(position);
+            mExoPlayer.setPlayWhenReady(state);
         } // end if
     }//end initializer
 
@@ -104,5 +114,12 @@ public class BakinDetailFragment extends Fragment {
     public void onDestroy() {
         super.onDestroy();
         releasePlayer();
+    }
+
+    @Override
+    public void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putLong("videoPosishin",mExoPlayer.getCurrentPosition());
+        outState.putBoolean("state",mExoPlayer.getPlayWhenReady());
     }
 }
